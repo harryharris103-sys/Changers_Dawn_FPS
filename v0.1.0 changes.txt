@@ -1,0 +1,19 @@
+Frontline Lite v0.1.0 is built and published, but I haven't run it, so expect a few rough edges. Open it on your phone in landscape. It's a fresh game, separate from Bunker Run, and I didn't use your uploaded file.
+
+Modes (all against bots):
+
+Team Deathmatch: 4v4 with respawns, first to 25 kills.
+Kill Confirmed: kills drop dog tags. Collect enemy tags to score and ally tags to deny them. First to 15.
+Bomb Defusal: you attack with 3 bots against 4 defenders. Hold PLANT at the orange beacon for 3 seconds, then defend the bomb for 30 seconds. First to 3 rounds.
+Battle Royale: 12 players, a shrinking zone that damages anyone outside it, and the last one alive wins.
+
+Realism:
+
+Faces and costumes: each bot gets a different imaginary face, skin tone and headwear (helmet with goggles, balaclava, beanie, cap with beard, some with scars). Teams have different uniform colors.
+Your hands: you see gloved hands and sleeves holding the gun, with recoil, walking bob, a reload dip and a muzzle flash.
+Weapons and bots: there are three weapons (AR-7, SMG-X and the LR-50 sniper). The bots find their way around walls and fire back with some inaccuracy.
+Minimap: it shows your allies, and enemies only briefly when they shoot.
+
+Gun sounds: I can't load real recorded gunshots here, so the sounds are synthesized in the browser to sound like each weapon. For real ones, you can give me recordings you have the license to use, and I can add them.
+
+Left out for now: loot and pickups in Battle Royale, bots' weapon variety, and online multiplayer. Tell me what feels off on your Tecno and we'll tune it, starting with frame rate, controls and bot difficulty.
