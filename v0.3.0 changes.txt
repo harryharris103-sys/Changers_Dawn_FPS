@@ -1,0 +1,24 @@
+Changer's Dawn FPS v0.3.0
+
+Graphics presets: the menu button now cycles Low, Balanced and High. Your phone starts on Balanced. If the frame rate drops, the game lowers the setting by itself and tells you.
+Lighter drawing:
+Walls are drawn with fewer steps.
+The floor is drawn at lower detail.
+Soldiers are drawn in one piece.
+Bots look for targets less often.
+Low draws the screen at half the detail.
+
+More 3D
+
+Sky: a dawn sky with sun, clouds, mountains and a city skyline that turns as you look around.
+Walls and floor: the walls have shaded edges and fade into the distance, and the floor has a texture.
+Soldiers: they now have ground shadows and look darker when far away.
+High preset: it adds a dark vignette around the screen edges.
+
+Reload animation
+
+Magazine guns: the gun tilts and lowers, the magazine drops out, your left hand fetches a new one from your belt, it clicks in, and you pull the charging handle before the gun comes back up. The sidearm's slide moves too.
+Shotgun and sniper: your hand loads shells one at a time, then works the pump or bolt.
+Sounds: each step has its own click or thud, still generated in code.
+
+
