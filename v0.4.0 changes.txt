@@ -1,0 +1,17 @@
+Changer's Dawn FPS v0.4.0 
+
+Gun sounds: I cut single shots out of the long recordings and shrank them to about 650 KB in total. Each weapon now uses real recordings, and the game picks a different clip and pitch each shot so automatic fire doesn't sound repeated.
+
+CR-9 Carbine: three clips from the SKS rifle.
+Mk-45 Sidearm: three clips from the CZ.
+Longshot-50 sniper: two clips from the Mosin rifle, which also catch the bolt being worked.
+Pump-12 shotgun: the shotgun recording plus two shotgun clips from the impacts pack.
+Vektor SMG: pistol clips from the impacts pack, sped up a little.
+Titan LMG: heavier gunshots from the impacts pack, slowed down a little.
+Hit sounds: hitting an enemy and getting hurt now use impact sounds.
+
+Textures: I used four Kenney wall textures (stone and brick), spread across the map so different blocks look different, and one stone floor. Since the Kenney set is medieval-looking, the map now has a stone-fortress feel. Tell me if you'd like more modern-looking walls instead.
+
+Credits: the gun recordings are © 2009 Vincent Sevedge under CC BY 3.0, which requires credit. I added a credits line to the menu covering him, Kenney and the impacts pack. Keep that line if you share the game.
+
+Still synthesized: reload sounds (your packs had none), the bomb beep and the explosion.
