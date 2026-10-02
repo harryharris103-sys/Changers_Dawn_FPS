@@ -1,0 +1,12 @@
+v0.4.1. 
+
+What was likely slow: the old version drew the walls one thin slice at a time, about 200 drawing calls every frame. That is fine on a PC but heavy for a Helio A22. It now draws the sky, floor and walls straight into one small picture and puts it on screen once. It looks the same. I also capped how many gun sounds play at once at 8. Phones with a weak processor start on Low, and the game steps the setting down by itself if it still can't keep up.
+
+Things to try on the phone:
+Open the file, not the chat preview. Running it inside the Claude app loads a whole extra web page around the game. Download the attached changers-dawn-fps.html and open it in Chrome from your file manager, or open the artifact link in Chrome directly.
+Close other apps and turn off battery saver while testing.
+Start on the Low graphics setting and raise it only if it runs smoothly.
+Use landscape, and don't let the screen record or cast.
+Free up some phone storage, because a nearly full phone slows everything down.
+
+If it's still slow, tell me what you see: stuttering, a freeze at loading, a black screen, or controls that lag. T
