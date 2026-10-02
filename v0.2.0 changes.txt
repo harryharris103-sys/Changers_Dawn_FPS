@@ -1,0 +1,20 @@
+Changer's Dawn FPS v0.2.0 
+
+
+What changed in the game:
+
+Name: it is now Changer's Dawn FPS.
+Graphics: the walls now have textures (concrete panels and brick), the floor is a textured surface, and there is a sky gradient, distance fog and a dark vignette. Soldiers are drawn at twice the detail with shading, ground shadows and a muzzle flash when they fire.
+Graphics button: there is a Graphics HD/Lite button on the menu. HD is the default. If your Tecno struggles, it switches itself to Lite, and you can switch by hand too.
+Weapons: there are now six, each with its own look, sound and handling:
+CR-9 Carbine
+Vektor SMG
+Pump-12 shotgun
+Longshot-50 sniper
+Titan LMG
+Mk-45 Sidearm
+Weapon handling: each has reserve ammo, recoil, damage that drops off at range, and a different reload time. The shotgun fires pellets. The sniper hits hard and has a scope.
+Aiming: the new AIM button zooms in and tightens your shots, and SWAP cycles weapons.
+Bots: the bots now carry different weapons, and the kill feed shows which weapon got the kill.
+
+Next update will use some free-to-use art and audio (for example Kenney or OpenGameArt packs with a CC0 license).
