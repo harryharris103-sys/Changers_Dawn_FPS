@@ -1,0 +1,19 @@
+v0.4.2 now has reload animations on all 18 weapons. I haven't been able to run it in a browser, so none of it has been seen playing in the game. The code passes a syntax check and ran without errors in a simulated test of every weapon's reload. I also rendered each gun with its magazine removed, and all of them looked complete. 
+
+How each weapon reloads
+
+12 rifles and SMGs (Vector, MP7, MP5, SCAR, M4A1, M16, AK-12, UAR15, M110, UAR-10, Colt M4A1, M16A4): the real magazine detaches. Your left hand grabs it, pulls it out along its own angle, and drops it. A fresh magazine is carried in, seated, and the weapon returns to rest. The weapon tilts and lifts slightly during the swap.
+ADAR and both M1911s: the same sequence. Their magazines were separate parts in the models, so these work cleanly too.
+Magnum revolver: the cylinder swings out to the left, the rounds disappear (ejected), a speedloader brings new rounds in, and the cylinder swings shut.
+Marksman: the magazine box drops and is replaced, using the same sequence as the rifles.
+P90: this is the weakest one. Its magazine sits tightly under the sight rail with no room to lift out. I made it tip up at the rear and slide back, but the front edge passes through the rail for a moment. I'm not fully happy with it, so look at it first.
+
+Where the motion came from
+The timing, weapon tilt, magazine path and hand path come from the M4 first-person reload in your M4 pack. That pack also has a longer reload for an empty gun: after seating the magazine, your hand goes to the bolt catch, and an empty reload takes about 30% longer than a normal one. The game's reload times are shorter than the original animation, so the motion plays faster than in the pack.
+
+Things to know
+
+Unused uploads: I didn't use the other uploads. The shotgun set doesn't match any weapon you have, the FAL and M4A1 packs are full-character rigs rather than first-person arms, and I have no tool here that can open the AKM .usdz file. If you export the AKM as FBX or GLB, I can use it for AK-12 details.
+Hands: they are still your existing box gloves. They now move to the magazine and follow it, and the left forearm stretches to stay attached.
+Not in this version: there is no ejected-shell effect on the revolver, and the only sound is the existing click, played at magazine out and in.
+Dropped magazine: the old magazine falls out of view quickly, so you may only catch a glimpse of it.
