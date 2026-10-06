@@ -1,0 +1,25 @@
+I've made v0.4.2, a version of your game for the Tecno Spark 5 Air. I couldn't run it in a browser here, so it has only passed a syntax check and has not been tested on a phone. Please try it and tell me what the frame rate and controls feel like.
+
+What I changed
+
+Touch controls: The game had no touch input at all, so it couldn't be played on a phone before.
+Movement: a floating joystick on the left. Pushing it to the edge sprints.
+Looking: drag anywhere on the right side. You can also drag while holding FIRE.
+Buttons: FIRE, AIM (tap to toggle), JUMP, R reload, ◀ ▶ to switch weapons, E for plant/defuse (only shown in Bomb Defusal) and a pause button.
+Weapon models load on demand: Weapon models make up most of the 7 MB file, and the old version built all 18 at startup. On the phone, each one is now built the first time you equip it. This cuts startup time and memory use.
+Lower graphics load on mobile:
+Resolution: the starting level is set from the phone's reported RAM, so a 2 GB phone should begin on Potato.
+Auto-scaling: it now scales resolution down more aggressively when the frame rate drops.
+View distance: reduced to about 60%.
+Shadows and grain: shadows are never used on mobile, and the procedural grain on the character models is skipped.
+Memory fixes: old textures and sky images are freed when you change maps, and the game can recover if the phone drops the graphics context.
+Mobile menu: a compact two-column menu, a smaller HUD, a "rotate to landscape" screen in portrait, fullscreen and landscape lock on Deploy, and auto-pause when you switch apps.
+
+Things to know
+
+Internet needed: The game still loads three.js from the internet (cdnjs), so the phone needs a connection the first time. Making it fully offline would mean embedding that library, which I can't download here.
+First-equip pause: Heavy weapons such as the P90 or M16A4 may pause briefly the first time you equip them.
+Graphics button: If it still stutters, tap the Graphics button in the menu to cycle quality. Potato is the lightest.
+Desktop unchanged: Desktop play should work as before, since the changes only apply on touch devices.
+
+I can tune further, such as lowering bot counts, capping the frame rate at 30, or trimming the heaviest weapon models, once you tell me how it runs.
