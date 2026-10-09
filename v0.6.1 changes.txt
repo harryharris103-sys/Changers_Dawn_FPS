@@ -1,0 +1,1 @@
+Starting on v0.6.1: a scavenger system for Zombies and Monster Siege, plus lag fixes aimed at the Tecno.
