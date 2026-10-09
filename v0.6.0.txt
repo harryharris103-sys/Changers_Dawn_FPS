@@ -1,0 +1,29 @@
+The patch applied cleanly and all four script blocks pass a syntax check. I'm handing you the finished file now.I've added the three modes, the new enemies and the performance changes in Changers_Dawn_FPS_v0_6_0.html. I only checked that the code parses, so none of it has been run, either on a PC or on your Tecno Spark 5 Air. Please try each mode and tell me what breaks.
+
+**New modes** (tap the Mode button to cycle to them)
+- **Arms Race:** you start on a pistol and every kill moves you up a 15-weapon ladder, from pistols through SMGs and rifles to the L96 sniper. A kill with the last weapon wins. All 9 bots climb the ladder too, so it's free-for-all, and you respawn when you die. There's a 6-minute cap, and the highest level wins on time.
+- **Loot & Shoot:** you start with only the M1911 on the big Island map. Colour-coded crates drop weapons (white for common, blue for rifles, gold for power weapons), plus medkits, ammo and armor plates, and new crates spawn over time. Dying resets you to the pistol. First to 20 kills wins.
+- **Firing Range:** a new map where you have every weapon and unlimited ammo. Targets strafe at different distances, with 10–50 m markers on the floor. It's a 2-minute scored run, and the end screen shows score, accuracy and headshots.
+
+**New enemies**
+- **Zombies:**
+  - Spitters stay at range and shoot acid.
+  - Bloaters run at you and explode.
+  - Crawlers are low and very fast.
+  - A Juggernaut appears every 5th wave and slams the ground.
+- **Monster Siege:**
+  - Leapers jump at you.
+  - Warlocks shoot fireballs from range.
+  - A Titan appears every 5th wave.
+- Special enemies have a coloured glow and a name in the kill feed. They start appearing from wave 2–3 and get more common as waves go on.
+
+**PC quality:** on a capable PC (6+ cores, 6 GB+ RAM) the game now starts on High. High adds anti-aliasing, soft 2048 shadows, sharper textures and a muzzle-flash light. Weaker machines like your 4 GB laptop start on Medium, with G to switch.
+
+**Tecno Spark 5 Air (2 GB):**
+- Lighter shader precision.
+- No rendering behind the menu.
+- Slower minimap updates.
+- Music is off by default, so it doesn't load the 7 MB soundtrack. Raise the Music slider if you want it.
+- It still starts on Potato quality at 30 FPS.
+
+The bots in Arms Race and Loot & Shoot all fire the same gun, so their level or loot doesn't change how they shoot. Also, the Warlock's fireballs and the Spitter's acid ignore line of sight when aimed, but they do stop at walls.
